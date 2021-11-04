@@ -1,6 +1,6 @@
 {
-  "name": "micro-dev",
-  "version": "3.0.0",
+  "name": "es-micro-dev",
+  "version": "1.0.5",
   "main": "./lib/index.js",
   "files": [
     "bin",
@@ -14,7 +14,7 @@
   "bin": {
     "micro-dev": "./bin/micro-dev.js"
   },
-  "repository": "zeit/micro-dev",
+  "repository": "PonomareVlad/micro-dev",
   "license": "MIT",
   "keywords": [
     "micro",
@@ -46,7 +46,7 @@
     "eslint": "4.19.1"
   },
   "peerDependencies": {
-    "micro": ">=9.0.0"
+    "micro": "npm:micro-with-es@latest"
   },
   "eslintConfig": {
     "extends": [
