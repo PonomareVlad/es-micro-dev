@@ -1,6 +1,6 @@
 {
   "name": "es-micro-dev",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./lib/index.js",
   "files": [
     "bin",
@@ -46,7 +46,7 @@
     "eslint": "4.19.1"
   },
   "peerDependencies": {
-    "micro": "npm:micro-with-es@latest"
+    "micro": "npm:es-micro@latest"
   },
   "eslintConfig": {
     "extends": [
